@@ -70,3 +70,29 @@ h1 {
     background-color: none;
     margin: 2px 0px 2px 0px;
 }
+
+@media (max-width: 480px) {
+    .calender {
+        width: 45px;
+        display: inline-block;
+        text-align: center;
+        margin: 2px 0px 2px 0px;
+    }
+    .dd {
+        width: 45px;
+        display: inline-block;
+        text-align: center;
+        border-style: ridge;
+        background-color: aliceblue;
+        margin: 2px 0px 2px 0px;
+    }
+    .bi {
+        width: 45px;
+        height: 68px;
+        overflow: hidden;
+        display: inline-block;
+        border-style: ridge;
+        background-color: azure;
+        margin: 2px 0px 2px 0px;
+    }
+}
