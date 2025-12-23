@@ -27,6 +27,12 @@ let day30 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,2
 let day29 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29];
 let day28 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28];
 
+// タイトル年月の表示
+const yyear = document.getElementById(`titleYear`);
+yyear.innerHTML = year;
+const mmonth = document.getElementById(`titleMonth`);
+mmonth.innerHTML = month;
+
 // 日付枠の作成
 for (i=1; i<=date3; i++) {
     //カレンダー

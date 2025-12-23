@@ -3,78 +3,96 @@
 
 .body {
     font-family: "メイリオ", Meiryo, sans-serif;
+    background-color: #f5d9d5;
 }
-h1 {
-    font-family: "Hannari";
+.container {
+    margin-top: 100px;
 }
-@media (max-width: 480px) {
-    .calender {
-        width: 45px;
-        display: inline-block;
-        text-align: center;
-        margin: 2px 0px 2px 0px;
-    }
-    .f1, .f2, .f4, .f6, .f8, .f10 {
-        height: 28px;
-    }
-    .f3, .f5, .f7, .f9 {
-        height: 70px;
-    }
-    .dd {
-        width: 45px;
-        display: inline-block;
-        text-align: center;
-        border-style: ridge;
-        background-color: aliceblue;
-        margin: 2px 0px 2px 0px;
-    }
-    .bi {
-        width: 45px;
-        height: 68px;
-        overflow: hidden;
-        display: inline-block;
-        border-style: ridge;
-        background-color: azure;
-        margin: 2px 0px 2px 0px;
-    }
-    .Sunday {
-        background-color: #ff00b3;
-    }
-    .Monday {
-        background-color: #99cc00;
-    }
-    .Tuesday {
-        background-color: #ccff33;
-    }
-    .Wednesday {
-        background-color: #669900;
-    }
-    .Thursday {    
-        background-color: #99cc33;
-    }
-    .Friday {    
-        background-color: #ccff66;
-    }
-    .Saturday {    
-        background-color: #0084ff;
-    }
-    .im {
-        max-width: 100%;
-        height: auto;
-    }
-    .searchImg {
-        width: 100%;
-        height: auto;
-        min-width: 450px;
-        max-width: 730px;
-        border-style: none;
-        background-color: none;
-        margin: 2px 0px 2px 0px;
-    }
+.content {
+    margin-top: 100px;
 }
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+#mainNavbar .nav-item {
+    color: white;
+}
+#mainNavbar .nav-item:hover {
+    color: #ea1c2c;
+}
+
+.calender {
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    margin: 2px 0px 2px 0px;
+}
+.f1, .f2, .f4, .f6, .f8, .f10 {
+    height: 28px;
+}
+.f3, .f5, .f7, .f9 {
+    height: 70px;
+}
+.dd {
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    border-style: ridge;
+    /*background-color: aliceblue;*/
+    margin: 2px 0px 2px 0px;
+}
+.bi {
+    width: 45px;
+    height: 68px;
+    overflow: hidden;
+    display: inline-block;
+    border-style: ridge;
+    /*background-color: azure;*/
+    margin: 2px 0px 2px 0px;
+}
+.Sunday {
+    background-color: #ff00b3;
+}
+.Monday {
+    background-color: #99cc00;
+}
+.Tuesday {
+    background-color: #ccff33;
+}
+.Wednesday {
+    background-color: #669900;
+}
+.Thursday {    
+    background-color: #99cc33;
+}
+.Friday {    
+    background-color: #ccff66;
+}
+.Saturday {    
+    background-color: #0084ff;
+}
+.im {
+    max-width: 100%;
+    height: auto;
+}
+.searchImg {
+    width: 100%;
+    height: auto;
+    min-width: 450px;
+    max-width: 730px;
+    border-style: none;
+    /*background-color: none;*/
+    margin: 2px 0px 2px 0px;
+}
+
 @media (min-width: 481px) {
     .calender {
-        width: 106px;
+        width: 68px;
         display: inline-block;
         text-align: center;
         margin: 2px 0px 2px 0px;
@@ -86,20 +104,20 @@ h1 {
         height: 70px;
     }
     .dd {
-        width: 106px;
+        width: 68px;
         display: inline-block;
         text-align: center;
         border-style: ridge;
-        background-color: aliceblue;
+        /*background-color: aliceblue;*/
         margin: 2px 0px 2px 0px;
     }
     .bi {
-        width: 106px;
+        width: 68px;
         height: 68px;
         overflow: hidden;
         display: inline-block;
         border-style: ridge;
-        background-color: azure;
+        /*background-color: azure;*/
         margin: 2px 0px 2px 0px;
     }
     .Sunday {
@@ -133,7 +151,73 @@ h1 {
         min-width: 450px;
         max-width: 730px;
         border-style: none;
-        background-color: none;
+        /*background-color: none;*/
+        margin: 2px 0px 2px 0px;
+    }
+}
+
+@media (min-width: 960px) {
+    .calender {
+        width: 106px;
+        display: inline-block;
+        text-align: center;
+        margin: 2px 0px 2px 0px;
+    }
+    .f1, .f2, .f4, .f6, .f8, .f10 {
+        height: 28px;
+    }
+    .f3, .f5, .f7, .f9 {
+        height: 70px;
+    }
+    .dd {
+        width: 106px;
+        display: inline-block;
+        text-align: center;
+        border-style: ridge;
+        /*background-color: aliceblue;*/
+        margin: 2px 0px 2px 0px;
+    }
+    .bi {
+        width: 106px;
+        height: 68px;
+        overflow: hidden;
+        display: inline-block;
+        border-style: ridge;
+        /*background-color: azure;*/
+        margin: 2px 0px 2px 0px;
+    }
+    .Sunday {
+        background-color: #ff00b3;
+    }
+    .Monday {
+        background-color: #99cc00;
+    }
+    .Tuesday {
+        background-color: #ccff33;
+    }
+    .Wednesday {
+        background-color: #669900;
+    }
+    .Thursday {    
+        background-color: #99cc33;
+    }
+    .Friday {    
+        background-color: #ccff66;
+    }
+    .Saturday {    
+        background-color: #0084ff;
+    }
+    .im {
+        max-width: 100%;
+        height: auto;
+    }
+    .searchImg {
+        width: 100%;
+        height: auto;
+        min-width: 450px;
+        max-width: 730px;
+        border-style: none;
+        /*background-color: none;*/
         margin: 2px 0px 2px 0px;
     }
 }

@@ -24,53 +24,62 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="app.css">
 
-    <title>日替わり画像カレンダー</title>  
+    <title>カレンダー</title>  
   </head>
 
   <body>
-    <h1>日替わり画像カレンダー</h1>
-    <div>
-        <div class="f1">
-            <div class="calender Sunday">日</div>
-            <div class="calender Monday">月</div>
-            <div class="calender Tuesday">火</div>
-            <div class="calender Wednesday">水</div>
-            <div class="calender Thursday">木</div>
-            <div class="calender Friday">金</div>
-            <div class="calender Saturday">土</div>
-        </div>
-        <div class="f2">
-            <div id="d0" class="dd day1"></div>
-            <div id="d1" class="dd day2"></div>
-            <div id="d2" class="dd day3"></div>
-            <div id="d3" class="dd day4"></div>
-            <div id="d4" class="dd day5"></div>
-            <div id="d5" class="dd day6"></div>
-            <div id="d6" class="dd day7"></div>
-        </div>
-        <div class="f3">
-            <div id="box0" class="bi img1">
-                <img id="n1" class="im" src="" alt="">
-            </div>
-            <div id="box1" class="bi img2">
-                <img id="n2" class="im" src="" alt="">
-            </div>
-            <div id="box2" class="bi img3">
-                <img id="n3" class="im" src="" alt="">
-            </div>
-            <div id="box3" class="bi img4">
-                <img id="n4" class="im" src="" alt="">
-            </div>
-            <div id="box4" class="bi img5">
-                <img id="n5" class="im" src="" alt="">
-            </div>
-            <div id="box5" class="bi img6">
-                <img id="n6" class="im" src="" alt="">
-            </div>
-            <div id="box6" class="bi img7">
-                <img id="n7" class="im" src="" alt="">
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand"><span id="titleYear"></span>年<span id="titleMonth"></span>月</a>
+        <div id="navLinks" class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link">HOME</a>
+                <a href="#" class="nav-item nav-link">ABOUT</a>
             </div>
         </div>
+    </nav>
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="f1 content">
+                <div class="calender Sunday">日</div>
+                <div class="calender Monday">月</div>
+                <div class="calender Tuesday">火</div>
+                <div class="calender Wednesday">水</div>
+                <div class="calender Thursday">木</div>
+                <div class="calender Friday">金</div>
+                <div class="calender Saturday">土</div>
+            </div>
+            <div class="f2">
+                <div id="d0" class="dd day1"></div>
+                <div id="d1" class="dd day2"></div>
+                <div id="d2" class="dd day3"></div>
+                <div id="d3" class="dd day4"></div>
+                <div id="d4" class="dd day5"></div>
+                <div id="d5" class="dd day6"></div>
+                <div id="d6" class="dd day7"></div>
+            </div>
+            <div class="f3">
+                <div id="box0" class="bi img1">
+                    <img id="n1" class="im" src="" alt="">
+                </div>
+                <div id="box1" class="bi img2">
+                    <img id="n2" class="im" src="" alt="">
+                </div>
+                <div id="box2" class="bi img3">
+                    <img id="n3" class="im" src="" alt="">
+                </div>
+                <div id="box3" class="bi img4">
+                    <img id="n4" class="im" src="" alt="">
+                </div>
+                <div id="box4" class="bi img5">
+                    <img id="n5" class="im" src="" alt="">
+                </div>
+                <div id="box5" class="bi img6">
+                    <img id="n6" class="im" src="" alt="">
+                </div>
+                <div id="box6" class="bi img7">
+                    <img id="n7" class="im" src="" alt="">
+                </div>
+            </div>
         <div class="f4">
             <div id="d7" class="dd day8"></div>
             <div id="d8" class="dd day9"></div>
@@ -200,6 +209,7 @@
             </div>
         </div>        
     </div>
+    </section>
     
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
