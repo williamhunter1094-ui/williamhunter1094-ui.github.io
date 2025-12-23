@@ -7,76 +7,18 @@
 h1 {
     font-family: "Hannari";
 }
-.calender {
-    width: 106px;
-    display: inline-block;
-    text-align: center;
-    margin: 2px 0px 2px 0px;
-}
-.f1, .f2, .f4, .f6, .f8, .f10 {
-    height: 28px;
-}
-.f3, .f5, .f7, .f9 {
-    height: 70px;
-}
-.Sunday {
-    background-color: #ff00b3;
-}
-.Monday {
-    background-color: #99cc00;
-}
-.Tuesday {
-    background-color: #ccff33;
-}
-.Wednesday {
-    background-color: #669900;
-}
-.Thursday {    
-    background-color: #99cc33;
-}
-.Friday {    
-    background-color: #ccff66;
-}
-.Saturday {    
-    background-color: #0084ff;
-}
-.dd {
-    width: 106px;
-    display: inline-block;
-    text-align: center;
-    border-style: ridge;
-    background-color: aliceblue;
-    margin: 2px 0px 2px 0px;
-}
-.bi {
-    width: 106px;
-    height: 68px;
-    overflow: hidden;
-    display: inline-block;
-    border-style: ridge;
-    background-color: azure;
-    margin: 2px 0px 2px 0px;
-}
-.im {
-    max-width: 100%;
-    height: auto;
-}
-.searchImg {
-    width: 100%;
-    height: auto;
-    min-width: 450px;
-    max-width: 730px;
-    border-style: none;
-    background-color: none;
-    margin: 2px 0px 2px 0px;
-}
-
 @media (max-width: 480px) {
     .calender {
         width: 45px;
         display: inline-block;
         text-align: center;
         margin: 2px 0px 2px 0px;
+    }
+    .f1, .f2, .f4, .f6, .f8, .f10 {
+        height: 28px;
+    }
+    .f3, .f5, .f7, .f9 {
+        height: 70px;
     }
     .dd {
         width: 45px;
@@ -93,6 +35,105 @@ h1 {
         display: inline-block;
         border-style: ridge;
         background-color: azure;
+        margin: 2px 0px 2px 0px;
+    }
+    .Sunday {
+        background-color: #ff00b3;
+    }
+    .Monday {
+        background-color: #99cc00;
+    }
+    .Tuesday {
+        background-color: #ccff33;
+    }
+    .Wednesday {
+        background-color: #669900;
+    }
+    .Thursday {    
+        background-color: #99cc33;
+    }
+    .Friday {    
+        background-color: #ccff66;
+    }
+    .Saturday {    
+        background-color: #0084ff;
+    }
+    .im {
+        max-width: 100%;
+        height: auto;
+    }
+    .searchImg {
+        width: 100%;
+        height: auto;
+        min-width: 450px;
+        max-width: 730px;
+        border-style: none;
+        background-color: none;
+        margin: 2px 0px 2px 0px;
+    }
+}
+@media (min-width: 481px) {
+    .calender {
+        width: 106px;
+        display: inline-block;
+        text-align: center;
+        margin: 2px 0px 2px 0px;
+    }
+    .f1, .f2, .f4, .f6, .f8, .f10 {
+        height: 28px;
+    }
+    .f3, .f5, .f7, .f9 {
+        height: 70px;
+    }
+    .dd {
+        width: 106px;
+        display: inline-block;
+        text-align: center;
+        border-style: ridge;
+        background-color: aliceblue;
+        margin: 2px 0px 2px 0px;
+    }
+    .bi {
+        width: 106px;
+        height: 68px;
+        overflow: hidden;
+        display: inline-block;
+        border-style: ridge;
+        background-color: azure;
+        margin: 2px 0px 2px 0px;
+    }
+    .Sunday {
+        background-color: #ff00b3;
+    }
+    .Monday {
+        background-color: #99cc00;
+    }
+    .Tuesday {
+        background-color: #ccff33;
+    }
+    .Wednesday {
+        background-color: #669900;
+    }
+    .Thursday {    
+        background-color: #99cc33;
+    }
+    .Friday {    
+        background-color: #ccff66;
+    }
+    .Saturday {    
+        background-color: #0084ff;
+    }
+    .im {
+        max-width: 100%;
+        height: auto;
+    }
+    .searchImg {
+        width: 100%;
+        height: auto;
+        min-width: 450px;
+        max-width: 730px;
+        border-style: none;
+        background-color: none;
         margin: 2px 0px 2px 0px;
     }
 }
