@@ -20,18 +20,12 @@
     font-size: 1.5rem;
 }
 #mainNavbar .nav-item {
-    color: rgb(245, 190, 190);
+    color: rgb(75, 224, 87);
 }
 #mainNavbar .nav-item:hover {
     color: #ea1c2c;
 }
 
-/*.calender {
-    width: 45px;
-    display: inline-block;
-    text-align: center;
-    margin: 2px 0px 2px 0px;
-}*/
 .f1, .f2, .f4, .f6, .f8, .f10 {
     height: 28px;
     background-color: aliceblue;
@@ -40,22 +34,9 @@
     height: 70px;
     background-color: azure;
 }
-/*.dd {
-    width: 45px;
-    display: inline-block;
-    text-align: center;
-    border-style: ridge;
-    background-color: aliceblue;
-    margin: 2px 0px 2px 0px;
-}*/
 .bi {
-    /*width: 45px;*/
     height: 68px;
     overflow: hidden;
-    /*display: inline-block;*/
-    /*border-style: ridge;*/
-    /*background-color: azure;*/
-    /*margin: 2px 0px 2px 0px;*/
 }
 .Sunday {
     background-color: #ff00b3;
@@ -87,40 +68,18 @@
     height: auto;
     min-width: 450px;
     max-width: 730px;
-    /*border-style: none;*/
-    /*background-color: none;*/
-    /*margin: 2px 0px 2px 0px;*/
 }
 
 @media (min-width: 481px) {
-    /*.calender {
-        width: 68px;
-        display: inline-block;
-        text-align: center;
-        margin: 2px 0px 2px 0px;
-    }*/
     .f1, .f2, .f4, .f6, .f8, .f10 {
         height: 28px;
     }
     .f3, .f5, .f7, .f9 {
         height: 70px;
     }
-    /*.dd {
-        width: 68px;
-        display: inline-block;
-        text-align: center;
-        border-style: ridge;
-        background-color: aliceblue;
-        margin: 2px 0px 2px 0px;
-    }*/
     .bi {
-        /*width: 68px;*/
         height: 68px;
         overflow: hidden;
-        /*display: inline-block;
-        border-style: ridge;*/
-        /*background-color: azure;*/
-        /*margin: 2px 0px 2px 0px;*/
     }
     .Sunday {
         background-color: #ff00b3;
@@ -152,41 +111,19 @@
         height: auto;
         min-width: 450px;
         max-width: 730px;
-        /*border-style: none;*/
-        /*background-color: none;*/
-        /*margin: 2px 0px 2px 0px;*/
     }
 }
 
 @media (min-width: 960px) {
-    /*.calender {
-        width: 106px;
-        display: inline-block;
-        text-align: center;
-        margin: 2px 0px 2px 0px;
-    }*/
     .f1, .f2, .f4, .f6, .f8, .f10 {
         height: 28px;
     }
     .f3, .f5, .f7, .f9 {
         height: 70px;
     }
-    /*.dd {
-        width: 106px;
-        display: inline-block;
-        text-align: center;
-        border-style: ridge;
-        background-color: aliceblue;
-        margin: 2px 0px 2px 0px;
-    }*/
     .bi {
-        /*width: 106px;*/
         height: 68px;
         overflow: hidden;
-        /*display: inline-block;
-        border-style: ridge;*/
-        /*background-color: azure;*/
-        /*margin: 2px 0px 2px 0px;*/
     }
     .Sunday {
         background-color: #ff00b3;
@@ -218,8 +155,5 @@
         height: auto;
         min-width: 450px;
         max-width: 730px;
-        /*border-style: none;*/
-        /*background-color: none;*/
-        /*margin: 2px 0px 2px 0px;*/
     }
 }
