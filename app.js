@@ -46,11 +46,8 @@ for (i=1; i<=date3; i++) {
 
 // 画像枠の作成
 for (j=1; j<=date3; j++) {
-    //console.log('check1');
     if (j == 1) {
-        //console.log('check2');
         date5 = day2;
-        //console.log(`date5 ${date5}`);
     }
     const boxdate = document.getElementById(`box${date5}`);
     date5++;
@@ -60,14 +57,11 @@ for (j=1; j<=date3; j++) {
 for (k=1; k<=date3; k++) {
     if (k == 1) {
         date6 = day2 + 1;
-        //console.log('check3');
     }
-    //console.log(`date6 ${date6}`);
     const imgdata = document.getElementById(`n${date6}`);
     const imgd = `https://picsum.photos/400?random=${Math.random()}`;
 
     const link = document.createElement('a');
     imgdata.src = imgd;
-    //console.log('check4');
     date6++;
 }
