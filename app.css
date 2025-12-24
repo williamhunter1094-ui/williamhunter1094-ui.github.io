@@ -6,7 +6,7 @@
     background-color: #f5d9d5;
 }
 .content {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 #mainNavbar {
     font-size: 1.5rem;
@@ -17,7 +17,8 @@
     font-size: 1.5rem;
 }
 #mainNavbar .nav-item {
-    color: rgb(75, 224, 87);
+    color: #4BE057;
+    font-size: 1.3rem;
 }
 #mainNavbar .nav-item:hover {
     color: #ea1c2c;
