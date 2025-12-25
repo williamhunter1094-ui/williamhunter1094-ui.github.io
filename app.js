@@ -65,3 +65,25 @@ for (k=1; k<=date3; k++) {
     imgdata.src = imgd;
     date6++;
 }
+
+// 画像選択および表示
+document.querySelectorAll('.bi').forEach(img => {
+  img.addEventListener('click', function() {
+    // 1. 他の画像boxの選択状態（枠線クラスなど）をすべて解除
+    const isActive = this.classList.contains('border-primary');
+    document.querySelectorAll('.bi').forEach(el => {
+      el.classList.remove('border-primary', 'border-5'); // 排他制御
+    });
+
+    // 2. クリックした画像boxが未選択だった場合のみ選択状態にする（トグル）
+    if (!isActive) {
+      this.classList.add('border-primary', 'border-5');
+    }
+
+    // 3. クリックした画像boxの中の画像を下部表示エリアに出力
+    const selectImgValue = this.classList[3].substr(3,2); // 選択した画像のimg**を取得
+    const selectImgNumber = document.getElementById(`n${selectImgValue}`); // img**からn**を紐づけ
+    const showPicture = document.getElementById('showPicture'); // 画面下部の表示エリア取得
+    showPicture.src = selectImgNumber.src; // n**のsrcを画面下部の表示エリアのsrcに合わせる
+  });
+});

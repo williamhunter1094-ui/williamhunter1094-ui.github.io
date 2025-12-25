@@ -17,7 +17,7 @@
     font-size: 1.5rem;
 }
 #mainNavbar .nav-item {
-    color: #4BE057;
+    color: #8d8e8f;
     font-size: 1.3rem;
 }
 #mainNavbar .nav-item:hover {
@@ -60,12 +60,12 @@
 .im {
     max-width: 100%;
     height: auto;
+    cursor: pointer; /* マウスオーバー時にポインターを表示 */
 }
+
 .searchImg {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    min-width: 450px;
-    max-width: 730px;
 }
 
 @media (min-width: 481px) {
@@ -103,12 +103,11 @@
     .im {
         max-width: 100%;
         height: auto;
+        cursor: pointer; /* マウスオーバー時にポインターを表示 */
     }
     .searchImg {
-        width: 100%;
+        max-width: 100%;
         height: auto;
-        min-width: 450px;
-        max-width: 730px;
     }
 }
 
@@ -147,11 +146,10 @@
     .im {
         max-width: 100%;
         height: auto;
+        cursor: pointer; /* マウスオーバー時にポインターを表示 */
     }
     .searchImg {
-        width: 100%;
+        max-width: 100%;
         height: auto;
-        min-width: 450px;
-        max-width: 730px;
     }
 }
