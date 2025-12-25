@@ -36,6 +36,10 @@
     height: 68px;
     overflow: hidden;
 }
+/* 非選択時のデフォルトの境界線を非表示 */
+.bi.bi-action:not(.selected) {
+    border-color: transparent; /* デフォルトの境界線を透明 */
+}
 .Sunday {
     background-color: #ff00b3;
 }
@@ -79,6 +83,10 @@
         height: 68px;
         overflow: hidden;
     }
+    /* 非選択時のデフォルトの境界線を非表示 */
+    .bi.bi-action:not(.selected) {
+    border-color: transparent; /* デフォルトの境界線を透明 */
+    }
     .Sunday {
         background-color: #ff00b3;
     }
@@ -121,6 +129,10 @@
     .bi {
         height: 68px;
         overflow: hidden;
+    }
+    /* 非選択時のデフォルトの境界線を非表示 */
+    .bi.bi-action:not(.selected) {
+    border-color: transparent; /* デフォルトの境界線を透明 */
     }
     .Sunday {
         background-color: #ff00b3;
