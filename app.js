@@ -72,17 +72,20 @@ document.querySelectorAll('.bi').forEach(img => {
     // 1. 他の画像boxの選択状態（枠線クラスなど）をすべて解除
     const isActive = this.classList.contains('border-primary');
     document.querySelectorAll('.bi').forEach(el => {
-      el.classList.remove('selected', 'border','border-primary', 'border-5'); // 排他制御
+      el.classList.remove('selected', 'border','border-primary', 'border-3'); // 排他制御
     });
 
     // 2. クリックした画像boxが未選択だった場合のみ選択状態にする（トグル）
     if (!isActive) {
-      this.classList.add('selected', 'border','border-primary', 'border-5');
+      this.classList.add('selected', 'border','border-primary', 'border-3');
     }
 
     // 3. クリックした画像boxの中の画像を下部表示エリアに出力
     const selectImgValue = this.classList[3].substr(3,2); // 選択した画像のimg**を取得
     const selectImgNumber = document.getElementById(`n${selectImgValue}`); // img**からn**を紐づけ
+    if (selectImgNumber.src.substr(0, 4)!=='http'){ // n**のsrcの頭がhttpでないとき（imgが存在しない場所を選択するとsrcの頭がfile://になる)
+        this.classList.remove('selected', 'border','border-primary', 'border-3'); // 画像が無い場所は選択できないようにする（選択状態を解除する）
+    }
     const showPicture = document.getElementById('showPicture'); // 画面下部の表示エリア取得
     showPicture.src = selectImgNumber.src; // n**のsrcを画面下部の表示エリアのsrcに合わせる
   });
