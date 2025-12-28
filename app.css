@@ -5,6 +5,9 @@
     font-family: "メイリオ", Meiryo, sans-serif;
     background-color: #f5d9d5;
 }
+.navbar {
+    position: sticky;
+}
 .content {
     margin-top: 45px;
 }

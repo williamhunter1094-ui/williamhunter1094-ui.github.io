@@ -32,6 +32,8 @@ const yyear = document.getElementById(`titleYear`);
 yyear.innerHTML = year;
 const mmonth = document.getElementById(`titleMonth`);
 mmonth.innerHTML = month;
+const d2date = document.getElementById(`titleDate`);
+d2date.innerHTML = date;
 
 // 日付枠の作成
 for (i=1; i<=date3; i++) {

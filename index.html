@@ -6,12 +6,8 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <!--
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
-    -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
 
@@ -28,17 +24,29 @@
   </head>
 
   <body>
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top mx-2">
-        <a href="#" class="navbar-brand"><span id="titleYear"></span>年<span id="titleMonth"></span>月</a>
-        <div id="navLinks" class="collapse navbar-collapse">
-            <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link">HOME</a>
-                <a href="#" class="nav-item nav-link">ABOUT</a>
+    <nav id="mainNavbar" class="navbar navbar-expand-md bg-body-secondary mx-2" data-bs-thema="dark">
+        <div class="container">
+            <a href="#" class="navbar-brand"><span id="titleYear"></span>年<span id="titleMonth"></span>月<span id="titleDate"></span>日</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="nasaPictureSearch01.html" class="nav-link active">LINK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">ABOUT</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-    <section class="container-fluid px-0">
-        <div class="d-flex flex-row justify-content-center mt-6 mx-2">
+    <section class="container-fluid">
+        <div class="d-flex flex-row justify-content-center mx-2">
             <div class="f1 content text-center text-black col calender Sunday">日</div>
             <div class="f1 content text-center text-black col calender Monday">月</div>
             <div class="f1 content text-center text-black col calender Tuesday">火</div>

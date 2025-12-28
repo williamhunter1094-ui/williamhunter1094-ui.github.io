@@ -1,0 +1,19 @@
+.body {
+    font-family: "メイリオ", Meiryo, sans-serif;
+    background-color: azure;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+#mainNavbar .nav-item {
+    color: #8d8e8f;
+    font-size: 1.3rem;
+}
+#mainNavbar .nav-item:hover {
+    color: #ea1c2c;
+}
