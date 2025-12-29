@@ -5,6 +5,7 @@
 const specificDate = new Date();
 const year = specificDate.getFullYear();  //year 現在の西暦
 const month = specificDate.getMonth() + 1; //month 現在の月
+const date = specificDate.getDate();
 
 // タイトル年月の表示
 const yyear = document.getElementById(`titleYear`);

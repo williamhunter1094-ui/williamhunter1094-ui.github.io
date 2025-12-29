@@ -2,6 +2,9 @@
     font-family: "メイリオ", Meiryo, sans-serif;
     background-color: azure;
 }
+.navbar {
+    position: sticky;
+}
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
