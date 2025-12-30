@@ -3,7 +3,7 @@
 
 .body {
     font-family: "メイリオ", Meiryo, sans-serif;
-    background-color: #f5d9d5;
+    background-color: #EECCFF; /*hsv 280.20.100*/
 }
 .navbar {
     position: sticky;
@@ -29,11 +29,11 @@
 
 .f1, .f2, .f4, .f6, .f8, .f10 {
     height: 28px;
-    background-color: aliceblue;
+    background-color: #CCFFFF; /*hsv 180.20.100*/
 }
 .f3, .f5, .f7, .f9 {
     height: 70px;
-    background-color: azure;
+    background-color: #EEFFCC; /*hsv 80.20.100*/
 }
 .bi {
     height: 68px;
@@ -44,25 +44,25 @@
     border-color: transparent; /* デフォルトの境界線を透明 */
 }
 .Sunday {
-    background-color: #ff00b3;
+    background-color: #CC0043;
 }
 .Monday {
-    background-color: #99cc00;
+    background-color: #99cc00; /* hsv 75. 100. 80 */
 }
 .Tuesday {
-    background-color: #ccff33;
+    background-color: #76CC00;
 }
 .Wednesday {
-    background-color: #669900;
+    background-color: #55CC00;
 }
 .Thursday {    
-    background-color: #99cc33;
+    background-color: #33CC00;
 }
 .Friday {    
-    background-color: #ccff66;
+    background-color: #10CC00; /*115. 100. 80*/
 }
 .Saturday {    
-    background-color: #0084ff;
+    background-color: #0066CC;
 }
 .im {
     max-width: 100%;
@@ -91,25 +91,25 @@
     border-color: transparent; /* デフォルトの境界線を透明 */
     }
     .Sunday {
-        background-color: #ff00b3;
+        background-color: #CC0043;
     }
     .Monday {
-        background-color: #99cc00;
+        background-color: #99cc00; /* hsv 75. 100. 80 */
     }
     .Tuesday {
-        background-color: #ccff33;
+        background-color: #76CC00;
     }
     .Wednesday {
-        background-color: #669900;
+        background-color: #55CC00;
     }
     .Thursday {    
-        background-color: #99cc33;
+        background-color: #33CC00;
     }
     .Friday {    
-        background-color: #ccff66;
+        background-color: #10CC00; /*115. 100. 80*/
     }
     .Saturday {    
-        background-color: #0084ff;
+        background-color: #0066CC;
     }
     .im {
         max-width: 100%;
@@ -138,25 +138,25 @@
     border-color: transparent; /* デフォルトの境界線を透明 */
     }
     .Sunday {
-        background-color: #ff00b3;
+        background-color: #CC0043;
     }
     .Monday {
-        background-color: #99cc00;
+        background-color: #99cc00; /* hsv 75. 100. 80 */
     }
     .Tuesday {
-        background-color: #ccff33;
+        background-color: #76CC00;
     }
     .Wednesday {
-        background-color: #669900;
+        background-color: #55CC00;
     }
     .Thursday {    
-        background-color: #99cc33;
+        background-color: #33CC00;
     }
     .Friday {    
-        background-color: #ccff66;
+        background-color: #10CC00; /*115. 100. 80*/
     }
     .Saturday {    
-        background-color: #0084ff;
+        background-color: #0066CC;
     }
     .im {
         max-width: 100%;
