@@ -5,7 +5,7 @@
 const specificDate = new Date();
 const year = specificDate.getFullYear();  //year 現在の西暦
 const month = specificDate.getMonth() + 1; //month 現在の月
-const date = specificDate.getDate();
+const date = specificDate.getDate(); // date 現在の日
 
 // タイトル年月の表示
 const yyear = document.getElementById(`titleYear`);
@@ -37,7 +37,10 @@ form.addEventListener('submit', async function(e) {
     console.log(`res.data is ${res.data.url}`);
     searchTermInput.value = '';
     
+    const showPicture2 = document.getElementById('showPicture2'); // 画面下部の表示エリア取得
+    showPicture2.src = res.data.url; // n**のsrcを画面下部の表示エリアのsrcに合わせる
+    /*
     const img = document.createElement('IMG');
     img.src = res.data.url;
-    document.body.append(img);
+    document.body.append(img);*/
 });

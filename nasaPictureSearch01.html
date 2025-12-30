@@ -48,11 +48,11 @@
         </div>
     </nav>
     <section class="container-fluid">
-        <div class="row  mt-5 mx-2">
-            <h3>NASA”今日の一枚(APOD)”画像検索</h3>
+        <div class="row  mt-3 mx-2 bg-primary-subtle fs-4 fw-normal" id="title">
+            <p>NASA”今日の一枚(APOD)”画像検索</p>
         </div>
-        <div class="row mt-3 mx-2">
-            <p>検索条件 1時間29回まで 1日49回まで</p>
+        <div class="row mt-3 mx-2 bg-info-subtle">
+            <p class="bg-warning-subtle">検索条件 1時間29回まで 1日49回まで</p>
             <p>2020-02-12 定点カメラによる星の動き</p>
             <p>2020-01-1 ベテルギウス想像図 Rare occultation of Betelgeuse</p>
             <p>2020-02-17 減光中のベテルギウスの表面の変化</p>
@@ -60,14 +60,17 @@
         </div>
         <div class="row mt-4 mx-2">
             <form id="searchForm">
-                <div class="col-5 d-flex align-items-center gap-2">
-                    <label class="col-2 justify-content-end">検索日時:</label>
+                <div class="col-10 d-flex align-items-center gap-2">
+                    <label class="justify-content-end text-end text-nowrap">検索日時:</label>
                     <input type="text" class="form-control" placeholder="yyyy-mm-dd" id="date_sample" name="query">
-                    <button type="submit" class="col-2 btn btn-outline-primary">検索</button>
+                    <button type="submit" class="btn btn-outline-primary text-nowrap">検索</button>
                 </div>
             </form>
         </div>
-
+        <div class="d-flex flex-row justify-content-center mt-5 mx-2">
+            <div id="showBox2" class=""></div>
+            <img id="showPicture2" class="searchImg2" src="" alt="">
+        </div>
         <!-- bootstrap-datepickerのjavascriptコード
         <script>
             $('#date_sample').datepicker({
