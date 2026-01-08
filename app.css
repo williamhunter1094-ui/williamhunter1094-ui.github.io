@@ -29,11 +29,11 @@
 
 .f1, .f2, .f4, .f6, .f8, .f10 {
     height: 28px;
-    background-color: #CCFFFF; /*hsv 180.20.100*/
+    background-color: #ADBABC; /*hsv 190.8.74*/
 }
 .f3, .f5, .f7, .f9 {
     height: 70px;
-    background-color: #EEFFCC; /*hsv 80.20.100*/
+    background-color: #ADBCBA; /*hsv 170.8.74*/
 }
 .bi {
     height: 68px;
@@ -44,25 +44,25 @@
     border-color: transparent; /* デフォルトの境界線を透明 */
 }
 .Sunday {
-    background-color: #CC0043;
+    background-color: #BCADAD;
 }
 .Monday {
-    background-color: #99cc00; /* hsv 75. 100. 80 */
+    background-color: #ADB5BC /*#99cc00 hsv 75. 100. 80 */
 }
 .Tuesday {
-    background-color: #76CC00;
+    background-color: #ADB2BC;
 }
 .Wednesday {
-    background-color: #55CC00;
+    background-color: #ADB0BC;
 }
 .Thursday {    
-    background-color: #33CC00;
+    background-color: #ADADBC;
 }
 .Friday {    
-    background-color: #10CC00; /*115. 100. 80*/
+    background-color: #B0ADBC;      /*115. 100. 80*/
 }
 .Saturday {    
-    background-color: #0066CC;
+    background-color: #BCADB0;
 }
 .im {
     max-width: 100%;
@@ -90,27 +90,6 @@
     .bi.bi-action:not(.selected) {
     border-color: transparent; /* デフォルトの境界線を透明 */
     }
-    .Sunday {
-        background-color: #CC0043;
-    }
-    .Monday {
-        background-color: #99cc00; /* hsv 75. 100. 80 */
-    }
-    .Tuesday {
-        background-color: #76CC00;
-    }
-    .Wednesday {
-        background-color: #55CC00;
-    }
-    .Thursday {    
-        background-color: #33CC00;
-    }
-    .Friday {    
-        background-color: #10CC00; /*115. 100. 80*/
-    }
-    .Saturday {    
-        background-color: #0066CC;
-    }
     .im {
         max-width: 100%;
         height: auto;
@@ -136,27 +115,6 @@
     /* 非選択時のデフォルトの境界線を非表示 */
     .bi.bi-action:not(.selected) {
     border-color: transparent; /* デフォルトの境界線を透明 */
-    }
-    .Sunday {
-        background-color: #CC0043;
-    }
-    .Monday {
-        background-color: #99cc00; /* hsv 75. 100. 80 */
-    }
-    .Tuesday {
-        background-color: #76CC00;
-    }
-    .Wednesday {
-        background-color: #55CC00;
-    }
-    .Thursday {    
-        background-color: #33CC00;
-    }
-    .Friday {    
-        background-color: #10CC00; /*115. 100. 80*/
-    }
-    .Saturday {    
-        background-color: #0066CC;
     }
     .im {
         max-width: 100%;
