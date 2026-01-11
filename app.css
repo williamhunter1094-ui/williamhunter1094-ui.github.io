@@ -13,7 +13,7 @@
 }
 #mainNavbar {
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 100; /* navbar background HSV 210.2.93 */
 }
 #mainNavbar .navbar-brand {
     color: #ea1c2c;
@@ -29,11 +29,11 @@
 
 .f1, .f2, .f4, .f6, .f8, .f10 {
     height: 28px;
-    background-color: #ADBABC; /*hsv 190.8.74*/
+    background-color: #CFD1D3; /* 210.2.83 */ /*旧hsv 190.8.74*/
 }
 .f3, .f5, .f7, .f9 {
     height: 70px;
-    background-color: #ADBCBA; /*hsv 170.8.74*/
+    background-color: #DBDEE0; /* 210.2.88 */ /*旧hsv 170.8.74*/
 }
 .bi {
     height: 68px;
@@ -44,25 +44,25 @@
     border-color: transparent; /* デフォルトの境界線を透明 */
 }
 .Sunday {
-    background-color: #BCADAD;
+    background-color: #525354;  /* HSV 210.2.33 */
 }
 .Monday {
-    background-color: #ADB5BC /*#99cc00 hsv 75. 100. 80 */
+    background-color: #B6B8BA;  /* hsv 210.2.73 */ /* 旧 #99cc00 */
 }
 .Tuesday {
-    background-color: #ADB2BC;
+    background-color: #A9ABAD;  /*68 */
 }
 .Wednesday {
-    background-color: #ADB0BC;
+    background-color: #9D9FA0;  /*63 */
 }
 .Thursday {    
-    background-color: #ADADBC;
+    background-color: #909293;  /*58 */
 }
 .Friday {    
-    background-color: #B0ADBC;      /*115. 100. 80*/
+    background-color: #848587;  /* HSV 210. 2. 53*/
 }
 .Saturday {    
-    background-color: #BCADB0;
+    background-color: #6B6C6D;
 }
 .im {
     max-width: 100%;
