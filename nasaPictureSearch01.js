@@ -38,7 +38,7 @@ form.addEventListener('submit', async function(e) {
     searchTermInput.value = '';
     
     const showPicture2 = document.getElementById('showPicture2'); // 画面下部の表示エリア取得
-    showPicture2.src = res.data.url; // n**のsrcを画面下部の表示エリアのsrcに合わせる
+    showPicture2.src = res.data.url; // NASAサーバーから取得したresのsrcを画面下部の表示エリアのsrcに合わせる
     /*
     const img = document.createElement('IMG');
     img.src = res.data.url;
