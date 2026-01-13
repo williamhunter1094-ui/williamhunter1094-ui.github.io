@@ -1,0 +1,89 @@
+<!-- 様々な値の変換プログラム -->
+<!-- 堀田拓郎 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="nasaPictureSearch01.css">
+
+    <!-- bootstrap-datepicker読み込み
+    <link rel="stylesheet" type="text/css" href="../bootstrap-datepicker-1.9.0-dist/css/bootstrap-datepicker.min.css">
+    <script type="text/javascript" src="../bootstrap-datepicker-1.9.0-dist/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="../bootstrap-datepicker-1.9.0-dist/locales/bootstrap-datepicker.ja.min.js"></script>
+    -->
+
+    <title>値変換</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-expand-md bg-body-secondary sticky-top mx-2" data-bs-thema="dark">
+        <div class="container">
+            <a href="#" class="navbar-brand"><span id="titleYear"></span>年<span id="titleMonth"></span>月<span id="titleDate"></span>日</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">LINK</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="nasaPictureSearch01.html">APOD Search</a></li>
+                            <li><a class="dropdown-item" href="convert.html">Convert</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link active" aria-current="page">ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid">
+        <div class="row  mt-3 mx-2 bg-primary-subtle fs-4 fw-normal" id="title">
+            <p>値変換</p>
+        </div>
+        <div class="row mt-3 mx-2 bg-info-subtle">
+        </div>
+        <div class="row mt-4 mx-2">
+            <form id="searchForm">
+                <div class="col-10 d-flex align-items-center gap-2">
+                    <label class="justify-content-end text-end text-nowrap">キロ/マイル</label>
+                    <input type="text" class="form-control" placeholder="yyyy-mm-dd" id="date_sample" name="query">
+                    <button type="submit" class="btn btn-outline-primary text-nowrap">変換</button>
+                </div>
+            </form>
+        </div>
+        <div class="d-flex flex-row justify-content-center mt-5 mx-2">
+            <div id="showBox2" class=""></div>
+            <img id="showPicture2" class="searchImg2" src="" alt="">
+        </div>
+        <!-- bootstrap-datepickerのjavascriptコード
+        <script>
+            $('#date_sample').datepicker({
+                format: 'yyyy-mm-dd'
+            });
+        </script>  -->
+    </section>
+    <!-- Bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ 
+        <!-- Axios -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+        <!-- Custom js -->
+        <script src="nasaPictureSearch01.js"></script>
+</body>
+</html>
